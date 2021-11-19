@@ -96,7 +96,7 @@ public class P1 {
 		
 		JButton loginbtn = new JButton("Login");
 		loginbtn.setForeground(Color.RED);
-		loginbtn.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 10 ));
+		loginbtn.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 12 ));
 		loginbtn.setBounds(233, 14, 104, 27);
 		frmClientchat.getContentPane().add(loginbtn);
 		
@@ -244,7 +244,7 @@ public class P1 {
 		textArea_2.setFont(new Font("Courier New", Font.BOLD, 10 ));
 		
 		JComboBox comboBox = new JComboBox();
-		comboBox.setFont(new Font("Tahoma", Font.BOLD, 10 ));
+		comboBox.setFont(new Font("Tahoma", Font.BOLD, 11 ));
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"aaaa", "bbb", "ccc"}));
 		comboBox.setToolTipText("");
 		comboBox.setBounds(456, 108, 282, 30);
