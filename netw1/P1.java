@@ -82,21 +82,21 @@ public class P1 {
 		frmClientchat.getContentPane().setLayout(null);
 		
 		JLabel usernlable = new JLabel("Username:");
-		usernlable.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		usernlable.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		usernlable.setVerticalAlignment(SwingConstants.TOP);
 		usernlable.setBounds(21, 22, 72, 13);
 		frmClientchat.getContentPane().add(usernlable);
 		
 		userntxt = new JTextField();
 		usernlable.setLabelFor(userntxt);
-		userntxt.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		userntxt.setFont(new Font("Tahoma", Font.BOLD, 10));
 		userntxt.setBounds(85, 22, 138, 19);
 		frmClientchat.getContentPane().add(userntxt);
 		userntxt.setColumns(10);
 		
 		JButton loginbtn = new JButton("Login");
 		loginbtn.setForeground(Color.RED);
-		loginbtn.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, ١٢));
+		loginbtn.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 10 ));
 		loginbtn.setBounds(233, 14, 104, 27);
 		frmClientchat.getContentPane().add(loginbtn);
 		
@@ -109,43 +109,43 @@ public class P1 {
 		frmClientchat.getContentPane().add(logoutbtn);
 		
 		JLabel statuslbl = new JLabel("Status:");
-		statuslbl.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		statuslbl.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		statuslbl.setBounds(21, 373, 72, 27);
 		frmClientchat.getContentPane().add(statuslbl);
 		
 		statustxt = new JTextField();
 		statuslbl.setLabelFor(statustxt);
-		statustxt.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		statustxt.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		statustxt.setBounds(97, 373, 501, 27);
 		frmClientchat.getContentPane().add(statustxt);
 		statustxt.setColumns(10);
 		
 		JLabel tcpsiplbl = new JLabel("TCP Server IP:");
-		tcpsiplbl.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		tcpsiplbl.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		tcpsiplbl.setBounds(455, 19, 104, 19);
 		frmClientchat.getContentPane().add(tcpsiplbl);
 		
 		JLabel tcpsplbl = new JLabel("TCP Server Port:");
-		tcpsplbl.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		tcpsplbl.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		tcpsplbl.setBounds(455, 50, 96, 20);
 		frmClientchat.getContentPane().add(tcpsplbl);
 		
 		textField_4 = new JTextField();
 		tcpsiplbl.setLabelFor(textField_4);
-		textField_4.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_4.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_4.setBounds(561, 17, 115, 24);
 		frmClientchat.getContentPane().add(textField_4);
 		textField_4.setColumns(10);
 		
 		textField_5 = new JTextField();
 		tcpsplbl.setLabelFor(textField_5);
-		textField_5.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_5.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_5.setBounds(561, 49, 115, 24);
 		frmClientchat.getContentPane().add(textField_5);
 		textField_5.setColumns(10);
 		
 		JLabel lblNewLabel_4 = new JLabel("Available Interfaces");
-		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, 10 ));
 		lblNewLabel_4.setBounds(455, 78, 111, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_4);
 		
@@ -154,7 +154,7 @@ public class P1 {
 		frmClientchat.getContentPane().add(scrollPane);
 		
 		JTextArea txtchat = new JTextArea();
-		txtchat.setFont(new Font("Courier New", Font.BOLD, ١٠));
+		txtchat.setFont(new Font("Courier New", Font.BOLD, 10�));
 		scrollPane.setViewportView(txtchat);
 		txtchat.setLineWrap(true);
 		txtchat.setWrapStyleWord(true);
@@ -164,59 +164,59 @@ public class P1 {
 		frmClientchat.getContentPane().add(scrollPane_1);
 		
 		JTextArea messagetxt = new JTextArea();
-		messagetxt.setFont(new Font("Courier New", Font.BOLD, ١٠));
+		messagetxt.setFont(new Font("Courier New", Font.BOLD, 10�));
 		scrollPane_1.setViewportView(messagetxt);
 		
 		JLabel lblNewLabel_5 = new JLabel("Local IP:");
-		lblNewLabel_5.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_5.setFont(new Font("Tahoma", Font.BOLD, 10 ));
 		lblNewLabel_5.setBounds(455, 150, 100, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_5);
 		
 		JLabel lblNewLabel_6 = new JLabel("Local Port:");
-		lblNewLabel_6.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_6.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		lblNewLabel_6.setBounds(455, 184, 100, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_6);
 		
 		JLabel lblNewLabel_7 = new JLabel("Remote IP:");
-		lblNewLabel_7.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_7.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		lblNewLabel_7.setBounds(455, 225, 100, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_7);
 		
 		JLabel lblNewLabel_8 = new JLabel("Remote Port:");
-		lblNewLabel_8.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_8.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		lblNewLabel_8.setBounds(455, 258, 100, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_8);
 		
 		textField_1 = new JTextField();
 		lblNewLabel_5.setLabelFor(textField_1);
-		textField_1.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_1.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_1.setBounds(542, 149, 115, 24);
 		frmClientchat.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
 		
 		textField_2 = new JTextField();
 		lblNewLabel_6.setLabelFor(textField_2);
-		textField_2.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_2.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_2.setBounds(542, 183, 115, 24);
 		frmClientchat.getContentPane().add(textField_2);
 		textField_2.setColumns(10);
 		
 		textField_6 = new JTextField();
 		lblNewLabel_7.setLabelFor(textField_6);
-		textField_6.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_6.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_6.setBounds(542, 224, 115, 24);
 		frmClientchat.getContentPane().add(textField_6);
 		textField_6.setColumns(10);
 		
 		textField_7 = new JTextField();
 		lblNewLabel_8.setLabelFor(textField_7);
-		textField_7.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		textField_7.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		textField_7.setBounds(542, 255, 115, 24);
 		frmClientchat.getContentPane().add(textField_7);
 		textField_7.setColumns(10);
 		
 		JButton btnNewButton_2 = new JButton("Send");
-		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
@@ -225,12 +225,12 @@ public class P1 {
 		frmClientchat.getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("test Button");
-		btnNewButton_3.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		btnNewButton_3.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		btnNewButton_3.setBounds(603, 312, 100, 27);
 		frmClientchat.getContentPane().add(btnNewButton_3);
 		
 		JLabel lblNewLabel_9 = new JLabel("Online Users");
-		lblNewLabel_9.setFont(new Font("Tahoma", Font.BOLD, ١٠));
+		lblNewLabel_9.setFont(new Font("Tahoma", Font.BOLD, 10�));
 		lblNewLabel_9.setBounds(759, 18, 100, 20);
 		frmClientchat.getContentPane().add(lblNewLabel_9);
 		
@@ -241,10 +241,10 @@ public class P1 {
 		JTextArea textArea_2 = new JTextArea();
 		lblNewLabel_9.setLabelFor(textArea_2);
 		scrollPane_2.setViewportView(textArea_2);
-		textArea_2.setFont(new Font("Courier New", Font.BOLD, ١٠));
+		textArea_2.setFont(new Font("Courier New", Font.BOLD, 10�));
 		
 		JComboBox comboBox = new JComboBox();
-		comboBox.setFont(new Font("Tahoma", Font.BOLD, ١١));
+		comboBox.setFont(new Font("Tahoma", Font.BOLD, 10 ));
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"aaaa", "bbb", "ccc"}));
 		comboBox.setToolTipText("");
 		comboBox.setBounds(456, 108, 282, 30);
